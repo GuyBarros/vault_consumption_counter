@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 # Load data from months2.json
-with open('months2.json', 'r') as file:
+with open('months.json', 'r') as file:
     data = json.load(file)
 
 # Process the JSON data with each mount_path having its own row and correct client counts

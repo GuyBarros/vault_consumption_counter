@@ -1,3 +1,7 @@
+export VAULT_ADDR=http://localhost:8200
+export START_TIME="2022-12-31T00:00:00Z"
+export END_TIME="2024-04-30T23:59:59Z"
+
 curl -o activities.txt --header "X-Vault-Token: $(cat ~/.vault-token)"  --request GET     "${VAULT_ADDR}/v1/sys/internal/counters/activity/export?start_time=${START_TIME}&end_time=${END_TIME}"
 
 input_file="activities.txt"
