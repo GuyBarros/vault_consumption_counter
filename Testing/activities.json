@@ -1,0 +1,20 @@
+[
+    {
+      "client_id": "0c5ebf2f-c716-d231-c58e-1e06a22d544d",
+      "namespace_id": "root",
+      "timestamp": 1672556710,
+      "mount_accessor": "auth_userpass_e5c297d6"
+    },
+    {
+      "client_id": "1745e9cd-7be4-b132-2bd6-fdcc0687c55b",
+      "namespace_id": "root",
+      "timestamp": 1672616704,
+      "mount_accessor": "auth_userpass_e5c297d6"
+    },
+    {
+      "client_id": "3b0b7fd5-27c3-2ff6-2b1e-0c77ff38822b",
+      "namespace_id": "root",
+      "timestamp": 1672616707,
+      "mount_accessor": "auth_userpass_e5c297d6"
+    }
+]

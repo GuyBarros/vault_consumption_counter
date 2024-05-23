@@ -9,12 +9,8 @@ export ENTITIES_FILE="entities.json"
 export OUTPUT_JSON_FILE="vault_usage.json"
 export OUTPUT_CSV_FILE="vault_usage.csv"
 
-curl -o ${ENTITIES_FILE} -k --header "X-Vault-Token: ${VAULT_CONSUMPTION_TOKEN}"  --request LIST   "${VAULT_ADDR}/v1/identity/entity/id"
-  #curl -o ${ENTITIES_FILE} -k  --header "X-Vault-Token: ${VAULT_TOKEN}" --header "X-Vault-Namespace: ${VAULT_NAMESPACE}" --request LIST   "${VAULT_ADDR}/v1/identity/entity/id"
-  # NOTE: activity/export isnt yet available on HCP Vault
-curl -o ${TEMP_ACTIVITIES_FILE} -k --header "X-Vault-Token: ${VAULT_CONSUMPTION_TOKEN}"  --request GET     "${VAULT_ADDR}/v1/sys/internal/counters/activity/export"
-  #curl -o ${TEMP_ACTIVITIES_FILE} -k --header "X-Vault-Token: ${VAULT_CONSUMPTION_TOKEN}"  --request GET     "${VAULT_ADDR}/v1/sys/internal/counters/activity/export?start_time=${START_TIME}&end_time=${END_TIME}"
-  #curl -o ${ACTIVITIES_FILE} -k  --header "X-Vault-Token: ${VAULT_CONSUMPTION_TOKEN}"  --header "X-Vault-Namespace: ${VAULT_NAMESPACE}" --request GET     "${VAULT_ADDR}/v1/sys/internal/counters/activity?start_time=${START_TIME}&end_time=${END_TIME}"
+#curl -o ${ENTITIES_FILE} -k --header "X-Vault-Token: ${VAULT_CONSUMPTION_TOKEN}"  --request LIST   "${VAULT_ADDR}/v1/identity/entity/id"
+#curl -o ${TEMP_ACTIVITIES_FILE} -k --header "X-Vault-Token: ${VAULT_CONSUMPTION_TOKEN}"  --request GET     "${VAULT_ADDR}/v1/sys/internal/counters/activity/export"
 
 #jq -s '.' "$TEMP_ACTIVITIES_FILE" > "$ENTITIES_FILE"
 

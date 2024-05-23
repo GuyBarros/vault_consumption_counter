@@ -1,0 +1,68 @@
+{
+    "request_id": "e5637185-4a60-ac59-b20f-aa0742202dd7",
+    "lease_id": "",
+    "renewable": false,
+    "lease_duration": 0,
+    "data": {
+        "key_info": {
+            "0c5ebf2f-c716-d231-c58e-1e06a22d544d": {
+                "aliases": [
+                    {
+                        "id": "db046dcb-5f6e-e220-8fde-1a4db58efb80",
+                        "mount_accessor": "auth_userpass_e5c297d6",
+                        "mount_path": "auth/consumption-test/",
+                        "mount_type": "userpass",
+                        "name": "bob"
+                    }
+                ],
+                "name": "entity_514a496b"
+            },
+            "1745e9cd-7be4-b132-2bd6-fdcc0687c55b": {
+                "aliases": [
+                    {
+                        "id": "df192daf-985a-c692-8462-53a10eb23417",
+                        "mount_accessor": "auth_userpass_e5c297d6",
+                        "mount_path": "auth/consumption-test/",
+                        "mount_type": "userpass",
+                        "name": "guy"
+                    }
+                ],
+                "name": "entity_49a57895"
+            },
+            "3b0b7fd5-27c3-2ff6-2b1e-0c77ff38822b": {
+                "aliases": [
+                    {
+                        "id": "0c89449d-c26f-9784-3ac1-88dfeea326f7",
+                        "mount_accessor": "auth_userpass_e5c297d6",
+                        "mount_path": "auth/consumption-test/",
+                        "mount_type": "userpass",
+                        "name": "test"
+                    }
+                ],
+                "name": "entity_638b61b7"
+            },
+            "fabfc8f3-3ccd-cd00-bf19-ee3b070bfa15": {
+                "aliases": [
+                    {
+                        "id": "3a986e2a-bfa8-bf68-59d5-08bfe38e4b89",
+                        "mount_accessor": "auth_userpass_e5c297d6",
+                        "mount_path": "auth/consumption-test/",
+                        "mount_type": "userpass",
+                        "name": "burger"
+                    }
+                ],
+                "name": "entity_51202443"
+            }
+        },
+        "keys": [
+            "0c5ebf2f-c716-d231-c58e-1e06a22d544d",
+            "1745e9cd-7be4-b132-2bd6-fdcc0687c55b",
+            "3b0b7fd5-27c3-2ff6-2b1e-0c77ff38822b",
+            "fabfc8f3-3ccd-cd00-bf19-ee3b070bfa15"
+        ]
+    },
+    "wrap_info": null,
+    "warnings": null,
+    "auth": null,
+    "mount_type": "identity"
+}
