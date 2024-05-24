@@ -1,0 +1,4 @@
+"client_id","namespace_id","timestamp","mount_accessor"
+"bob","root","2023-01-01T07:05:10Z","auth_userpass_e5c297d6"
+"guy","root","2023-01-01T23:45:04Z","auth_userpass_e5c297d6"
+"test","root","2023-01-01T23:45:07Z","auth_userpass_e5c297d6"
