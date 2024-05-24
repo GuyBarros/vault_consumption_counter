@@ -24,3 +24,4 @@ export VAULT_TOKEN=hunter2
 
 **doesnt yet work for HCP Vault because activity/export API endpoint is only available form root namespace.**
     
+this is a community project and not supported by Hashicorp. PRs welcomed.
