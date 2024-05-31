@@ -16,7 +16,7 @@ curl -o ${TEMP_ACTIVITIES_FILE} -k --header "X-Vault-Token: ${VAULT_CONSUMPTION_
   #curl -o ${TEMP_ACTIVITIES_FILE} -k --header "X-Vault-Token: ${VAULT_CONSUMPTION_TOKEN}"  --request GET     "${VAULT_ADDR}/v1/sys/internal/counters/activity/export?start_time=${START_TIME}&end_time=${END_TIME}"
   #curl -o ${ACTIVITIES_FILE} -k  --header "X-Vault-Token: ${VAULT_CONSUMPTION_TOKEN}"  --header "X-Vault-Namespace: ${VAULT_NAMESPACE}" --request GET     "${VAULT_ADDR}/v1/sys/internal/counters/activity?start_time=${START_TIME}&end_time=${END_TIME}"
 
-#jq -s '.' "$TEMP_ACTIVITIES_FILE" > "$ENTITIES_FILE"
+jq -s '.' "$TEMP_ACTIVITIES_FILE" > "$ACTIVITIES_FILE"
 
 # Extract relevant data from entities file and create a temporary JSON mapping file
 jq -r '
