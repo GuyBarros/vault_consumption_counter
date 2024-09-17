@@ -1,0 +1,105 @@
+{
+  "40390aa8-cb58-e2e1-ec93-3226ac0b19e1": {
+    "aliases": [
+      {
+        "id": "71966115-4954-4e6f-0a33-355994ff048b",
+        "mount_accessor": "auth_saml_16a0dfa8",
+        "mount_path": "auth/saml/",
+        "mount_type": "saml",
+        "name": "russ@hashicorp.com"
+      }
+    ],
+    "name": "entity_759568f6"
+  },
+  "505f84c9-02dc-391b-3794-b4baf0a9b688": {
+    "aliases": [
+      {
+        "id": "c51f70b5-244c-d08c-4256-a1430674bd76",
+        "mount_accessor": "auth_oidc_363d78c8",
+        "mount_path": "auth/okta_oidc/",
+        "mount_type": "oidc",
+        "name": "guy@hashicorp.com"
+      },
+      {
+        "id": "83afb023-3d32-4c78-5df8-e717a133082d",
+        "mount_accessor": "auth_ns_token_a60a94c2",
+        "mount_path": "auth/token/",
+        "mount_type": "ns_token",
+        "name": "guy@hashicorp.com"
+      }
+    ],
+    "name": "entity_3ee69d03"
+  },
+  "84bf3d33-f56b-89c6-6776-2d5272808120": {
+    "aliases": [
+      {
+        "id": "cf97e5a2-efc4-e321-22c1-42e5a28ea9c1",
+        "mount_accessor": "auth_ns_token_a60a94c2",
+        "mount_path": "auth/token/",
+        "mount_type": "ns_token",
+        "name": "hcp-root"
+      }
+    ],
+    "name": "entity_68e74e10"
+  },
+  "98ecd31a-5f90-5a0d-2aaf-93f97636d357": {
+    "aliases": [
+      {
+        "id": "0087b17d-c12b-612a-fa5c-7c714714ce12",
+        "mount_accessor": "auth_saml_16a0dfa8",
+        "mount_path": "auth/saml/",
+        "mount_type": "saml",
+        "name": "guy@hashicorp.com"
+      }
+    ],
+    "name": "entity_1e8a7ffd"
+  },
+  "9e060665-c6ce-5ed2-3764-a8f1a3d6bca9": {
+    "aliases": [
+      {
+        "id": "7fa0e135-04e6-be17-7a2c-97000fdd5ea8",
+        "mount_accessor": "auth_ns_token_a60a94c2",
+        "mount_path": "auth/token/",
+        "mount_type": "ns_token",
+        "name": "test-entity"
+      }
+    ],
+    "name": "test-entity"
+  },
+  "a29786f9-09d4-9393-8adb-fd42eb6f0a27": {
+    "aliases": [
+      {
+        "id": "2908a939-8466-9a34-f8fb-4f5af615f859",
+        "mount_accessor": "auth_userpass_5c65ae98",
+        "mount_path": "auth/userpass/",
+        "mount_type": "userpass",
+        "name": "bob"
+      }
+    ],
+    "name": "Bob Smith"
+  },
+  "b94e63d8-150f-d17a-4a9a-69796c2da18e": {
+    "aliases": [
+      {
+        "id": "cc46d06e-5746-e14d-8789-bde569b2e7ba",
+        "mount_accessor": "auth_userpass_5c65ae98",
+        "mount_path": "auth/userpass/",
+        "mount_type": "userpass",
+        "name": "ellen"
+      }
+    ],
+    "name": "Ellen Wright"
+  },
+  "d9c03b9d-f775-b4c4-3bcb-8f45a8a9e170": {
+    "aliases": [
+      {
+        "id": "cb6db35a-d684-e6cf-a0f0-57d32ca80005",
+        "mount_accessor": "auth_oidc_363d78c8",
+        "mount_path": "auth/okta_oidc/",
+        "mount_type": "oidc",
+        "name": "russ@hashicorp.com"
+      }
+    ],
+    "name": "entity_770bf782"
+  }
+}
